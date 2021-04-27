@@ -27,6 +27,9 @@ public class ValidateMenMenuItem extends base {
 		// get text of menu item and validate it
 		String men = homePage.getMenText().getText();
 		Assert.assertTrue(men.equals("MEN"));
+		System.out.println("Menu item text MEN validated");
+		System.out.println("Menu item text MEN validated2");
+		System.out.println("Menu item text MEN validated3");
 	}
 
 	@AfterTest
